@@ -1,4 +1,5 @@
-name: devops CI
+
+name: Super-Linter
 
 on: push
 
@@ -9,9 +10,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      
-      - name: Run Super-Lister
-        uses: github/super-linter@v3
 
+      - name: Run Super-Linter
+        uses: github/super-linter@v3
+    
  
  
