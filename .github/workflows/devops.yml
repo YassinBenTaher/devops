@@ -1,0 +1,17 @@
+name: devops CI
+
+on: push
+
+jobs:
+  super-lint:
+    name: Lint code base
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+      - uses: actions/ckeckout@v2
+      
+      - name: Run Super-Lister
+      - uses: github/super-linter@v3
+
+ 
+ 
