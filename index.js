@@ -1,4 +1,4 @@
-const function getTotal(a,b) {
+function getTotal(a,b) {
   return a+b;
 }
 
